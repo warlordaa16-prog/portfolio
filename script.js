@@ -1,7 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const year = new Date().getFullYear();
   const footer = document.querySelector(".site-footer p");
   if (footer) {
-    footer.textContent = `© ${year} Warlordaa16 • Built with passion`;
+    footer.textContent = `Designed and built by Arnible Marcus · ${new Date().getFullYear()}.`;
   }
 });

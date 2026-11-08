@@ -2,232 +2,177 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Warlordaa16 | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#09090b" />
     <meta
       name="description"
-      content="Portfolio of Warlordaa16 — software developer building modern web experiences."
+      content="Arnible Marcus is a software developer building useful digital products, web applications, and data-driven tools."
     />
+    <meta property="og:title" content="Arnible Marcus — Software Developer" />
+    <meta
+      property="og:description"
+      content="Selected software projects by Arnible Marcus."
+    />
+    <meta property="og:type" content="website" />
+    <title>Arnible Marcus — Software Developer</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <a class="skip-link" href="#main">Skip to content</a>
     <header class="site-header">
-      <nav class="container nav">
-        <div class="brand">WARLORDAA16</div>
+      <nav class="container nav" aria-label="Main navigation">
+        <a class="brand" href="#top" aria-label="Arnible Marcus home">AM<span>.</span></a>
         <div class="nav-links">
           <a href="#about">About</a>
-          <a href="#skills">Skills</a>
-          <a href="#projects">Projects</a>
+          <a href="#work">Selected work</a>
           <a href="#contact">Contact</a>
         </div>
+        <a class="nav-cta" href="mailto:warlordaa16@gmail.com">Let’s talk <span aria-hidden="true">↗</span></a>
       </nav>
     </header>
 
-    <main>
-      <section class="hero">
-        <div class="container hero-grid">
-          <div class="hero-text">
-            <p class="eyebrow">Hi, I’m</p>
-            <h1>Warlordaa16</h1>
-            <h2>Full-Stack Developer & Creative Problem Solver</h2>
-            <p>
-              I build fast, scalable, and user-friendly digital products that turn
-              ideas into experiences. My focus is on clean code, thoughtful UX,
-              and practical solutions that make an impact.
-            </p>
-            <div class="cta">
-              <a class="button primary" href="#projects">View Projects</a>
-              <a class="button secondary" href="#contact">Contact Me</a>
-            </div>
-            <div class="socials">
-              <a href="https://github.com/warlordaa16-prog" target="_blank" rel="noreferrer">GitHub</a>
-              <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
-              <a href="mailto:hello@warlordaa16.dev">Email</a>
-            </div>
+    <main id="main">
+      <section class="hero container" id="top" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> Software developer · Building for the web</p>
+          <h1 id="hero-title">Thoughtful software.<br /><span>Real-world impact.</span></h1>
+          <p class="hero-intro">
+            I’m Arnible Marcus. I build practical digital products—from mobile-first business tools to systems that help teams manage information and get work done.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#work">Explore selected work <span aria-hidden="true">↓</span></a>
+            <a class="text-link" href="mailto:warlordaa16@gmail.com">Get in touch <span aria-hidden="true">↗</span></a>
           </div>
+          <div class="hero-meta">
+            <span>Based on my public GitHub projects</span>
+            <a href="https://github.com/warlordaa16-prog" target="_blank" rel="noopener noreferrer">github.com/warlordaa16-prog ↗</a>
+          </div>
+        </div>
+        <aside class="profile-panel" aria-label="Developer profile">
+          <div class="profile-image-wrap">
+            <img
+              class="profile-image"
+              src="https://avatars.githubusercontent.com/u/224768965?v=4"
+              alt="GitHub profile photo of Arnible Marcus"
+              width="160"
+              height="160"
+            />
+            <span class="image-accent" aria-hidden="true"></span>
+          </div>
+          <p class="panel-label">A little about my work</p>
+          <p class="panel-copy">Product-minded development with a focus on useful interfaces, clear workflows, and solving everyday problems.</p>
+          <div class="panel-divider"></div>
+          <div class="panel-footer">
+            <span class="mono">CURRENT FOCUS</span>
+            <span>Web apps · TypeScript</span>
+          </div>
+        </aside>
+        <div class="hero-index mono" aria-hidden="true">PORTFOLIO / 2026</div>
+      </section>
 
-          <div class="hero-card">
-            <div class="profile-box">
-              <div class="avatar">WA</div>
-              <div class="mini-info">
-                <span>Available for work</span>
-                <strong>Open to opportunities</strong>
-              </div>
-            </div>
-            <ul class="stats">
-              <li>
-                <strong>3+</strong>
-                <span>Years building</span>
-              </li>
-              <li>
-                <strong>10+</strong>
-                <span>Projects shipped</span>
-              </li>
-              <li>
-                <strong>24/7</strong>
-                <span>Learning mode</span>
-              </li>
-            </ul>
+      <section class="about section container" id="about" aria-labelledby="about-title">
+        <div class="section-kicker"><span class="mono">01</span><span>About</span></div>
+        <div class="about-content">
+          <h2 id="about-title">I turn complex needs into <span>clear, usable software.</span></h2>
+          <p>
+            My public work spans tools for education and community operations, business management, digital payments, and urban services. I enjoy taking a real workflow, understanding where it gets stuck, and shaping a product that makes it simpler.
+          </p>
+          <p>
+            I work primarily in the TypeScript ecosystem and care about the details that make software dependable: accessible interfaces, thoughtful data flows, and maintainable implementation.
+          </p>
+          <div class="focus-tags" aria-label="Areas of focus">
+            <span>Product-focused development</span>
+            <span>Responsive web applications</span>
+            <span>Workflow &amp; data tools</span>
+            <span>TypeScript</span>
           </div>
         </div>
       </section>
 
-      <section id="about" class="section">
+      <section class="work section" id="work" aria-labelledby="work-title">
         <div class="container">
-          <div class="section-heading">
-            <p class="eyebrow">About Me</p>
-            <h3>Building products that matter</h3>
-          </div>
-
-          <div class="about-grid">
-            <div class="about-copy">
-              <p>
-                I’m a developer focused on creating polished web experiences and
-                practical software solutions. I enjoy turning ideas into products
-                that feel smooth, useful, and genuinely valuable for users.
-              </p>
-              <p>
-                I care about writing maintainable code, solving real-world
-                problems, and improving the tools people rely on every day.
-              </p>
+          <div class="work-heading">
+            <div>
+              <div class="section-kicker"><span class="mono">02</span><span>Selected work</span></div>
+              <h2 id="work-title">Projects built around <span>real needs.</span></h2>
             </div>
-
-            <div class="about-card">
-              <h4>Currently</h4>
-              <p>Building web apps, UI systems, and developer tools.</p>
-              <ul>
-                <li>Frontend engineering</li>
-                <li>Backend integrations</li>
-                <li>UI/UX refinement</li>
-              </ul>
-            </div>
+            <a class="text-link all-projects" href="https://github.com/warlordaa16-prog?tab=repositories" target="_blank" rel="noopener noreferrer">All repositories <span aria-hidden="true">↗</span></a>
           </div>
-        </div>
-      </section>
-
-      <section id="skills" class="section alt">
-        <div class="container">
-          <div class="section-heading">
-            <p class="eyebrow">Skills</p>
-            <h3>Tools and technologies I use</h3>
-          </div>
-
-          <div class="skills-grid">
-            <div class="skill"><span>HTML</span></div>
-            <div class="skill"><span>CSS</span></div>
-            <div class="skill"><span>JavaScript</span></div>
-            <div class="skill"><span>TypeScript</span></div>
-            <div class="skill"><span>React</span></div>
-            <div class="skill"><span>Next.js</span></div>
-            <div class="skill"><span>Node.js</span></div>
-            <div class="skill"><span>Express</span></div>
-            <div class="skill"><span>MongoDB</span></div>
-            <div class="skill"><span>Git</span></div>
-            <div class="skill"><span>GitHub</span></div>
-            <div class="skill"><span>Figma</span></div>
-          </div>
-        </div>
-      </section>
-
-      <section id="projects" class="section">
-        <div class="container">
-          <div class="section-heading">
-            <p class="eyebrow">Projects</p>
-            <h3>Selected work</h3>
-          </div>
-
-          <div class="projects-grid">
-            <article class="project-card">
-              <div class="project-badge">Web App</div>
-              <h4>TaskFlow Pro</h4>
-              <p>
-                A productivity dashboard for organizing work, tracking team progress,
-                and visualizing priorities in real time.
-              </p>
-              <ul>
-                <li>React</li>
-                <li>Node.js</li>
-                <li>MongoDB</li>
-              </ul>
-              <div class="project-links">
-                <a href="https://github.com/warlordaa16-prog" target="_blank" rel="noreferrer">Code</a>
-                <a href="#" target="_blank" rel="noreferrer">Demo</a>
+          <div class="project-grid">
+            <article class="project-card project-featured">
+              <div class="project-topline"><span class="project-number mono">01 / PRODUCT</span><span class="project-mark" aria-hidden="true">↗</span></div>
+              <div class="project-art art-wallet" aria-hidden="true"><span class="art-orbit orbit-one"></span><span class="art-orbit orbit-two"></span><span class="art-core">S</span><span class="art-caption mono">SAVE · SEND · GROW</span></div>
+              <div class="project-body">
+                <p class="project-type">Digital finance · Mobile-first</p>
+                <h3>SaveLink Wallet</h3>
+                <p>A digital wallet concept for personal and group savings, transfers, bill payments, and mobile-money integration.</p>
+                <div class="project-bottom"><div class="tech-list"><span>TypeScript</span><span>Fintech</span><span>PWA</span></div><a class="project-link" href="https://github.com/warlordaa16-prog/Star-finn" target="_blank" rel="noopener noreferrer" aria-label="View SaveLink Wallet repository">View project <span aria-hidden="true">↗</span></a></div>
               </div>
             </article>
 
             <article class="project-card">
-              <div class="project-badge">E-commerce</div>
-              <h4>ShopSphere</h4>
-              <p>
-                A modern storefront experience built around clean product discovery,
-                fast browsing, and a frictionless checkout flow.
-              </p>
-              <ul>
-                <li>JavaScript</li>
-                <li>CSS</li>
-                <li>API</li>
-              </ul>
-              <div class="project-links">
-                <a href="https://github.com/warlordaa16-prog" target="_blank" rel="noreferrer">Code</a>
-                <a href="#" target="_blank" rel="noreferrer">Demo</a>
+              <div class="project-topline"><span class="project-number mono">02 / PLATFORM</span><span class="project-mark" aria-hidden="true">↗</span></div>
+              <div class="project-art art-city" aria-hidden="true"><span class="city-sun"></span><span class="city-block block-one"></span><span class="city-block block-two"></span><span class="city-block block-three"></span><span class="city-road"></span><span class="art-caption mono">CONNECTED CITY SYSTEMS</span></div>
+              <div class="project-body">
+                <p class="project-type">Civic technology · Smart mobility</p>
+                <h3>Urban Nexus</h3>
+                <p>A smart-city platform concept for urban mobility, traffic management, incident reporting, and development intelligence.</p>
+                <div class="project-bottom"><div class="tech-list"><span>TypeScript</span><span>Mobility</span><span>Data</span></div><a class="project-link" href="https://github.com/warlordaa16-prog/URBAN-NEXUS-" target="_blank" rel="noopener noreferrer" aria-label="View Urban Nexus repository">View project <span aria-hidden="true">↗</span></a></div>
               </div>
             </article>
 
             <article class="project-card">
-              <div class="project-badge">Dashboard</div>
-              <h4>InsightBoard</h4>
-              <p>
-                A reporting and analytics dashboard designed to make metrics easier
-                to read, compare, and act on.
-              </p>
-              <ul>
-                <li>Frontend</li>
-                <li>Charts</li>
-                <li>UX</li>
-              </ul>
-              <div class="project-links">
-                <a href="https://github.com/warlordaa16-prog" target="_blank" rel="noreferrer">Code</a>
-                <a href="#" target="_blank" rel="noreferrer">Demo</a>
+              <div class="project-topline"><span class="project-number mono">03 / OPERATIONS</span><span class="project-mark" aria-hidden="true">↗</span></div>
+              <div class="project-art art-track" aria-hidden="true"><span class="track-line line-one"></span><span class="track-line line-two"></span><span class="track-line line-three"></span><span class="track-node node-one"></span><span class="track-node node-two"></span><span class="track-node node-three"></span><span class="art-caption mono">CLASSROOM · ATTENDANCE · INSIGHT</span></div>
+              <div class="project-body">
+                <p class="project-type">Education technology · PWA</p>
+                <h3>ClassTrack</h3>
+                <p>A mobile-first attendance platform designed to digitize and simplify class attendance, validation, and reporting.</p>
+                <div class="project-bottom"><div class="tech-list"><span>TypeScript</span><span>Education</span><span>PWA</span></div><a class="project-link" href="https://github.com/warlordaa16-prog/ClassTrack" target="_blank" rel="noopener noreferrer" aria-label="View ClassTrack repository">View project <span aria-hidden="true">↗</span></a></div>
               </div>
             </article>
           </div>
         </div>
       </section>
 
-      <section id="contact" class="section alt">
-        <div class="container">
-          <div class="section-heading">
-            <p class="eyebrow">Contact</p>
-            <h3>Let’s build something great</h3>
+      <section class="toolkit section container" aria-labelledby="toolkit-title">
+        <div class="section-kicker"><span class="mono">03</span><span>Toolkit</span></div>
+        <div class="toolkit-content">
+          <h2 id="toolkit-title">The tools behind<br /><span>the work.</span></h2>
+          <div class="toolkit-list">
+            <div class="toolkit-row"><span class="mono">01</span><strong>Languages</strong><span>TypeScript · JavaScript</span></div>
+            <div class="toolkit-row"><span class="mono">02</span><strong>Product areas</strong><span>Web apps · PWA · Dashboards</span></div>
+            <div class="toolkit-row"><span class="mono">03</span><strong>Problem spaces</strong><span>Fintech · Education · Civic tech</span></div>
+            <div class="toolkit-row"><span class="mono">04</span><strong>Practice</strong><span>Accessible UI · Clear workflows · Maintainable code</span></div>
           </div>
+        </div>
+      </section>
 
-          <div class="contact-box">
-            <p>
-              I’m available for freelance projects, product work, and full-time
-              opportunities.
-            </p>
-            <div class="contact-links">
-              <a href="mailto:hello@warlordaa16.dev">hello@warlordaa16.dev</a>
-              <a href="https://github.com/warlordaa16-prog" target="_blank" rel="noreferrer">GitHub</a>
-              <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
-            </div>
+      <section class="contact section" id="contact" aria-labelledby="contact-title">
+        <div class="container contact-inner">
+          <div class="section-kicker"><span class="mono">04</span><span>Contact</span></div>
+          <p class="eyebrow">Have a project in mind?</p>
+          <h2 id="contact-title">Let’s make something <span>useful.</span></h2>
+          <p class="contact-copy">For collaborations, opportunities, or a good conversation about software, reach out.</p>
+          <div class="contact-actions">
+            <a class="button button-primary" href="mailto:warlordaa16@gmail.com">warlordaa16@gmail.com <span aria-hidden="true">↗</span></a>
+            <a class="button button-outline" href="https://github.com/warlordaa16-prog" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
           </div>
         </div>
       </section>
     </main>
 
-    <footer class="site-footer">
-      <div class="container">
-        <p>© 2026 Warlordaa16 • Built with passion</p>
-      </div>
+    <footer class="site-footer container">
+      <a class="brand" href="#top" aria-label="Back to top">AM<span>.</span></a>
+      <p>Designed and built by Arnible Marcus.</p>
+      <a class="back-top mono" href="#top">BACK TO TOP ↑</a>
     </footer>
-
     <script src="script.js"></script>
   </body>
 </html>
